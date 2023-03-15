@@ -1,0 +1,5 @@
+print("Esse programa calcula a velocidade média de um patinete")
+distancia = input("Qual foi a distancia percorrida em metros, pelo patinete? ")
+tempo =  input("Quantos minutos o patinete demorou pra percorrer essa distância? ")
+velocidadeMedia = float(distancia) / float(tempo)
+print(f"O patinete atingiu uma velocidade de {velocidadeMedia} m/min")
