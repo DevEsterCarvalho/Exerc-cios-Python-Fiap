@@ -4,4 +4,9 @@ if int (idade) >= 18:
     print(f"Sua participação foi autorizada, aluno de RM {rm}")
     print("Mais informações serão enviadas para seu e-mail cadastrado? ")
 else:
-    print("Sua participação não foi autorizada por causa da idade")
+    autorizacao = input("Voce possui autorização dos pais para ir? [s/n] ")
+    if autorizacao == 's':
+        print(f"Sua participação foi autorizada, aluno de rm {rm}")
+        print("Mais informações serão enviadas para o e-mail cadastrado! ")
+    else:
+        print("Sua participação não foi autorizada por causa da idade!")
