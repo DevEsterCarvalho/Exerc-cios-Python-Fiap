@@ -1,4 +1,5 @@
+import calc
 valor1 = input("Digite um valor: ")
 valor2 = input("Digite o segundo valor: ")
-soma = int(valor1) + int(valor2)
+soma = calc.somar(valor1,valor2)
 print(F"A soma é {soma}")
